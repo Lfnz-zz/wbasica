@@ -27,10 +27,41 @@ ul{
 }
 
 /*CLASS*/
+.PHero, .Sectio2{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    opacity: 0.7;
+}
+
+.PHero{
+    background-image: url('../img/hero-img.jpg');
+    min-height: 100vh;
+}
+
+.PText{
+    position:absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    letter-spacing: .5em;
+    text-transform: uppercase;
+}
+
+.PText .PBorder{
+    background-color: black;
+    color:white;
+    padding: 1.5em;
+}
 .ServBtn{
     background-color: transparent;
     background-image: none;
     border-color: #5ADD0E;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
     color: #5ADD0E;
     position:absolute;
     top:320px;
@@ -48,15 +79,22 @@ ul{
 }
 
 .ServIcon{
-    background-color: transparent;
-    border: 2px #005918 red;
+    background-color: #eee;
+    border: 2px solid #005918;
     height: 75px;
+    margin: 0 auto;
     width: 75px;
 }
 
 .ServMod{
     background-color: #2B8D15;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
     height:400px;
-    margin: 2em #5ADD0E;
+    margin: .5em auto;
+    padding: 1em;
     width:300px;
+}
+
+.ServMod p{
+    text-align: justify;
 }

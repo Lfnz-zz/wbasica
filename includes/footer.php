@@ -19,15 +19,14 @@
                 </div>
                 <div class=".col-sm-12 col-md-4 f3">
                     <ul>
-                        <li>Item 1</li>
-                        <li>Item 2</li>
-                        <li>Item 3</li>
-                        <li>Item 4</li>
+                        <li><i class="material-icons">contact_phone</i>: 044 81123456</li>
+                        <li><i class="material-icons">contact_mail</i>: Contacto@web.com</li>
+                        <li><i class="material-icons">place</i>: Monterrey Nuevo Leon</li>
                     </ul>
                 </div>
             </div>
             <div class="row">
-                <div class=".col-sm-12"></div>
+                <div class=".col-sm-12">Desarrollado por Lfnz</div>
             </div>
         </div>
  </footer>
